@@ -12,7 +12,8 @@
       <li>Support for <code>Lazy&lt;T></code> and <code>Provider&lt;T></code></li>
     </ul>
   ]]></description>
-
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
   <change-notes><![CDATA[
     2.0.0: Support IDEA 14 EAP & AS 1.0+
     1.0.5: Support IDEA 13.1 & AS 0.5.3

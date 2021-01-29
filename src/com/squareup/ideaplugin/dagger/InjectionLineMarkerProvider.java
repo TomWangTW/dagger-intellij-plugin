@@ -73,9 +73,4 @@ public class InjectionLineMarkerProvider implements LineMarkerProvider {
 
     return null;
   }
-
-  @Override public void collectSlowLineMarkers(@NotNull List<PsiElement> psiElements,
-      @NotNull Collection<LineMarkerInfo> lineMarkerInfos) {
-    // Sure buddy. You ever explain how and we just might.
-  }
 }
